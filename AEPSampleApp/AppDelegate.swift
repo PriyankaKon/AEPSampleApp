@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ]
         
         MobileCore.registerExtensions(extentions, {
-            MobileCore.configureWith(appId: "launch-ENfc0e1c5a935f48ee93bfc3af7538a594-development")
+            MobileCore.configureWith(appId: "")//Enter your appID here
             MobileCore.lifecycleStart(additionalContextData: ["contextDataKey": "contextDataVal"])
         })
         
